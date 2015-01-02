@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Random;
+
+import Random.GaussianRandom;
 import Random.UniformRandom;
 import Variables.Variables;;
 
@@ -10,15 +13,14 @@ public class Deneme {
 	public static void main(String[] args) {
 		
 		try {
-			getVariableData("../RandomNumbers/src/data.txt");
+			getVariableData("../MIPSolverTrial/src/data.txt");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} 
 		
 		printVariables(); 
-
-		System.out.println();
+		System.out.println("Ne yazayım???");
 		
 	} // end main
 		
